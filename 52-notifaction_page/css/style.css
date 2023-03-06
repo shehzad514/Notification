@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gainsboro;
+}
+.container
+{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.logo
+{
+    display: flex;
+}
+.logo h5
+{
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.read:hover
+{
+    cursor: pointer;
+    color: blue;
+    transition: ease-in-out 0.3s;
+}
+.sms
+{
+    background-color: gainsboro;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(58, 54, 54);
+    cursor: pointer;
+}
+.image
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+img
+{
+    width: 80%;
+}
+.para
+{
+    width: 95%;
+}
+#name
+{
+    font-weight: bolder;
+}
+#clubname
+{
+    color: blue;
+
+}
+#clubname:hover
+{
+    color: red;
+    cursor: pointer;
+}
+#msg
+{
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+   display: none;
+}
+.para span
+{
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1000px)
+{
+    .container
+    {
+        width: 50%;
+    }
+
+    .logo h1 
+    {
+        font-size: 18px;
+    }
+    .logo h5
+    {
+        font-size: 10px;
+    }
+    .read p 
+    {
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width:700px)
+{
+    .container
+    {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:500px)
+{
+    .container
+    {
+        width: 90%;
+    }
+}
+@media only screen and (max-width:300px)
+{
+    .container
+    {
+        width: 100%;
+    }
+}
